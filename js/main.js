@@ -82,4 +82,9 @@ $(document).ready(function() {
     $.scrollIt({
         topOffset: -50 
     });
+
+    /*-----------------Barra hamburguesa---------------*/
+    $(".nav-link").on("click", function(){
+        $(".navbar-collapse").collapse("hide");
+    });
 });
