@@ -1,4 +1,7 @@
-
+$(window).on("load",function(){
+    /*----------precarga--------------*/
+    $(".preloader").fadeOut("slow");
+});
 
 $(document).ready(function() {
     /* --- navbar fijo ---*/
